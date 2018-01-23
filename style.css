@@ -1,0 +1,120 @@
+html, body { 
+    min-height: 100%; 
+  }
+  body {
+    background: #535362;
+    background-image: -webkit-radial-gradient(top, circle cover, #ffffff, #535362 90%);
+    background-image: -moz-radial-gradient(top, circle cover, #ffffff, #535362 90%);
+    background-image: -o-radial-gradient(top, circle cover, #ffffff, #535362 90%);
+    background-image: radial-gradient(top, circle cover, #ffffff, #535362 90%);
+    font-family: 'Lato' , sans-serif;
+    font-size : large;
+    font-weight: 200;
+    color: white;
+}
+
+body {
+    
+   
+
+}
+
+p {
+    padding : 1vh;
+}
+#btcPrice {
+    font-size : x-large;
+    font-weight: 400;
+    text-align: center;
+
+    padding : 1vh;
+    color: #FE470D;
+}
+.gamerow {
+    display : flex;
+    justify-content: center;
+
+}
+
+.game { 
+    max-width: 1200px;
+}
+
+.instructions {
+    max-width : 400px;
+}
+
+.values {
+    max-width : 400px;
+    
+}
+
+.coins {
+    display : flex;
+    margin : 1vw;
+}
+.buttons {
+    display : flex;
+    justify-content: center;
+    margin : 1vh;
+    padding : 1vh;
+}
+#canvas{
+    border-style: groove;
+    border-width: 7px;
+    border-color: white;
+}
+#god {
+    margin : 1vh;
+    padding: 1vh;
+    width : 10vw;
+    border : solid;
+    background : #FE470D;
+    border-color : #FE470D;
+    border-radius : 10%;
+    color: white;
+}
+#Crypto {
+    margin : 1vh;
+    padding: 1vh;
+    width : 10vw;
+    border : solid;
+    background : #FE470D;
+    border-color : #FE470D;
+    border-radius : 10%;
+    color: white;
+}
+
+#Terror {
+    margin : 1vh;
+    padding: 1vh;
+    width : 10vw;
+    border : solid;
+    background : #FE470D;
+    border-color : #FE470D;
+    border-radius : 10%;
+    color: white;
+}
+#bugs {
+    margin : 1vh;
+    padding: 1vh;
+    width : 10vw;
+    border : solid;
+    background : #FE470D;
+    border-color : #FE470D;
+    border-radius : 10%;
+    color: white;
+}
+
+#restart {
+    margin : 1vh;
+    padding: 1vh;
+    width : 10vw;
+    border : solid;
+    background : #FE470D;
+    border-color : #FE470D;
+    border-radius : 10%;
+    color: white;
+   
+}
+}

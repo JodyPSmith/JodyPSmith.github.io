@@ -1,1 +1,73 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/pageButtons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <title>Awesome Games</title>
+</head>
+
+<body>
+
+    <div class="gamerow">
+        <div class="instructions">
+            <div id="btcPrice">
+                Bitcoin Price Today is $
+                <id="price"></id>
+                    <script type="text/javascript">
+                        document.write(getBtcPrice());
+                    </script>
+                    <id="currency"> USD</id>
+            </div>
+            <p>Use the arrow keys to grab the cash and Crypto coins while avoiding the FUDsters. If the fudsters get you the Market Crash will take 30% of your gains!</p>
+            <div class="values">
+                <div class="coins">
+                    <div>
+                        <img src='images/bonus.png' />
+                    </div>
+                    <div>
+                        <p>Grab the Cash for $100</p>
+                    </div>
+                </div>
+                <div class="values">
+                    <div class="coins">
+                        <div>
+                            <img src='images/bonus2.png' />
+                        </div>
+                        <div>
+                            <p>the Neo for $500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="values">
+                    <div class="coins">
+                        <div>
+                            <img src='images/bonus1.png' />
+                        </div>
+                        <div>
+                            <p>...and the Eth for $1000!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Reach todays current bitcoin price of $
+                <script type="text/javascript">document.write(getBtcPrice());</script> to win early retirement.</p>
+        </div>
+        <div class="game" id="app"></div>
+        <script id="theGame" src='js/CryptoGrab.js'></script>
+    </div>
+
+    <div class="buttons">
+        <input id="god" type="button" value="God Mode Enable" onclick="enableGodMode();">
+        <input id="Crypto" type="button" value="Crypto Grab" onclick="changeContent('CryptoGrab.js');" />
+        <input id="Terror" type="button" value="Terror Kids" onclick="changeContent('TerrorKids.js');" />
+        <input id="bugs" type="button" value="99bugs" onclick="changeContent('99bugs.js');" />
+        <input id="restart" type="button" value="Restart" onclick="reloadPage();" />
+    </div>
+
+</body>
+
+</html>
